@@ -1,0 +1,72 @@
+body {
+  background: #edf2fc;
+  font-family:sans-serif;
+}
+
+aside {
+  color: gray;
+  font-size: 18px;
+  width: 25%;
+}
+
+section {
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+
+.signup {
+  background-color: white;
+  border-radius: 5px;
+  width: 350px;
+  height: 500px;
+  text-align: center;
+}
+
+.account {
+  background-color: white;
+  border-radius: 5px;
+  width: 350px;
+  height: 50px;
+  text-align: center;
+}
+
+.blue {
+  background-color: #70b2f4;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-left: 120px;
+  text-align: center;
+  font-size: 12px;
+}
+
+aside, section {
+  display:inline-block;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 1000px ){
+  section {
+      display: none;
+    }
+
+    aside {
+      width: 95%;
+      float: none;
+      margin-top: 20px;
+      display: inline-block to image;
+      margin-left: 200px;
+    }
+
+  footer {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 600px ){
+  aside {
+    margin-left: 40px;
+  }
+  }
