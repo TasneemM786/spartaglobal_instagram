@@ -40,6 +40,7 @@ footer {
   margin-left: 120px;
   text-align: center;
   font-size: 12px;
+  font-family: sans-serif;
 }
 
 aside, section {
@@ -69,4 +70,4 @@ aside, section {
   aside {
     margin-left: 40px;
   }
-  }
+}
